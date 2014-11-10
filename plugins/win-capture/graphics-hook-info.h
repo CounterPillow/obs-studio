@@ -33,6 +33,7 @@ struct d3d8_offsets {
 struct d3d9_offsets {
 	uint32_t present;
 	uint32_t present_ex;
+	uint32_t present_swap;
 	uint32_t reset;
 	uint32_t reset_ex;
 };
