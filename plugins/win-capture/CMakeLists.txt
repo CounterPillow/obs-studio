@@ -14,9 +14,11 @@ set(win-capture_SOURCES
 	dc-capture.c
 	obfuscate.c
 	cursor-capture.c
+	game-capture.c
 	window-helpers.c
 	monitor-capture.c
 	window-capture.c
+	load-graphics-offsets.c
 	plugin-main.c)
 
 add_library(win-capture MODULE
