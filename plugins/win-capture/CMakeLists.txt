@@ -4,6 +4,7 @@ set(win-capture_HEADERS
 	obfuscate.h
 	win-pipe.h
 	hook-helpers.h
+	cursor-capture.h
 	graphics-hook-info.h
 	window-helpers.h
 	dc-capture.h)
@@ -12,6 +13,7 @@ set(win-capture_SOURCES
 	win-pipe.c
 	dc-capture.c
 	obfuscate.c
+	cursor-capture.c
 	window-helpers.c
 	monitor-capture.c
 	window-capture.c
